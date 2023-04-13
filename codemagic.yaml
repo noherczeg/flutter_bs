@@ -14,7 +14,6 @@ workflows:
         PACKAGE_NAME: "com.example.flutter_bs" # <-- Put your package name here
         GOOGLE_PLAY_TRACK: "alpha"
       flutter: v3.7.11
-      java: 17
     cache:
       cache_paths:
         - ~/.pub-cache
@@ -81,7 +80,6 @@ workflows:
 #      vars:
 #        APP_ID: 1111111111 # <-- Put your APP ID here
       flutter: v3.7.11
-      java: 17
       xcode: latest
       cocoapods: default
     scripts:
