@@ -19,12 +19,13 @@ class MyApp extends StatelessWidget {
         ),
       ],
       redirect: (context, state) {
-        const isAuthenticated = true;
-        if (!isAuthenticated) {
-          return '/auth';
-        } else {
-          return null;
-        }
+        // const isAuthenticated = true;
+        // if (!isAuthenticated) {
+        //   return '/auth';
+        // } else {
+        //   return null;
+        // }
+        return null;
       },
     );
     return MaterialApp.router(

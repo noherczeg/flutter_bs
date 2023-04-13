@@ -13,7 +13,7 @@ class FeedDetailsPage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          id + " lol",
+          '$id lol',
           style: Theme.of(context).textTheme.headlineLarge,
         ),
       ),
